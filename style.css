@@ -7,3 +7,21 @@ td, th {
     border: 1px solid black;
     padding: 5px 10px;
 }
+
+h1{
+    text-align: center;
+}
+
+.addACoffee{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#submit{
+    background-color: cornflowerblue;
+    margin-top: 20px;
+}
+body{
+    background-color: lightblue;
+}
