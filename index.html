@@ -18,31 +18,26 @@
         <div class="container">
             <div class="row">
                 <! left column >
-                <div class="col">
-                   <!col1>
+                <div class="col" >
+                    <!col1>
+                    <div id="coffees" class="row row-cols-3"></div>
+
                 </div>
                 <! right column >
                 <div class="col">
                     <!col2>
                         <div class="row">
                             <!col3>
-                            <label for="roast-selection"> Roast Selection</label>
-                            <select id="roast-selection" class="form-select form-select-sm mb-3" aria-label=".form-select-sm example">
+                            <label for="roast-selection-brew"> Roast Selection</label>
+                            <select id="roast-selection-brew" class="form-select form-select-sm mb-3" aria-label=".form-select-sm example">
                                 <option selected>Select Coffee</option>
                                 <option value="1">light</option>
                                 <option value="2">medium</option>
                                 <option value="3">dark</option>
                             </select>
-                            <label for="exampleDataList" class="form-label">Coffee Name</label>
-                            <input class="form-control" list="datalistOptions" id="exampleDataList">
-                            <datalist id="datalistOptions">
-                                <option value="San Francisco">
-                                <option value="New York">
-                                <option value="Seattle">
-                                <option value="Los Angeles">
-                                <option value="Chicago">
-                            </datalist>
-                            <button id="submitButton" type="submit"> Submit </button>
+                            <label for="coffeeName" class="form-label">Coffee name </label>
+                            <input class="form" id="coffeeName">
+                            <input id="submitCoffee" type="submit">
 
                         </div>
                         <hr>
@@ -59,10 +54,10 @@
                                 <option value="2">medium</option>
                                 <option value="3">dark</option>
                             </select>
-                            <label for="Name" class="form-label"> Name </label>
-                            <input class="form" id="Name">
+                            <label for="addCoffeeName" class="form-label"> Name </label>
+                            <input class="form" id="addCoffeeName">
 
-                            <button id="submitButton" type="submit"> Submit </button>
+                            <input id="submitButton" type="submit">
 
                         </div>
 
@@ -73,31 +68,12 @@
             </div>
         </div>
     </div>
+
+
     <script src="main.js"></script>
 
-
-
-<!--    <form>-->
-<!--        <label for="roast-selection"></label>-->
-<!--        <select id="roast-selection">-->
-<!--            <option>light</option>-->
-<!--            <option>medium</option>-->
-<!--            <option>dark</option>-->
-<!--        </select>-->
-<!--        <input id="submit" type="submit" />-->
-<!--    </form>-->
-
-<!--    <table>-->
-<!--        <thead>-->
-<!--        <tr>-->
-<!--            <th>ID</th>-->
-<!--            <th>NAME</th>-->
-<!--            <th>ROAST</th>-->
-<!--        </tr>-->
-<!--        </thead>-->
-<!--        <tbody id="coffees"></tbody>-->
-<!--    </table>-->
-
-<!--    <script src="main.js"></script>-->
 </body>
 </html>
+
+
+
