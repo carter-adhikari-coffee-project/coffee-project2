@@ -18,10 +18,16 @@ h1{
     font-weight: bold;
 }
 
-#submit{
+#submitButton,#submitCoffee{
     background-color: cornflowerblue;
     margin-top: 20px;
 }
-body{
-    background-color: lightblue;
+
+#coffees{
+    font-size: x-large;
+    display: flex;
+    flex-direction: left;
+    padding: 0;
 }
+
+

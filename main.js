@@ -1,12 +1,9 @@
 "use strict"
 
 function renderCoffee(coffee) {
-    var html = '<tr class="coffee">';
-    html += '<td>' + coffee.id + '</td>';
-    html += '<td>' + coffee.name + '</td>';
-    html += '<td>' + coffee.roast + '</td>';
-    html += '</tr>';
-
+    var html = '';
+    html += '<div class="coffeeName"> <h2>' +coffee.name ;
+    html +=  "</h2> <p class='coffeeRoast'>"+ coffee.roast+"</p>" + '</div>';
     return html;
 }
 
@@ -48,6 +45,8 @@ var coffees = [
     {id: 14, name: 'French', roast: 'dark'},
 ];
 
+
+
 var tbody = document.querySelector('#coffees');
 var submitButton = document.querySelector('#submit');
 var roastSelection = document.querySelector('#roast-selection');
@@ -55,3 +54,7 @@ var roastSelection = document.querySelector('#roast-selection');
 tbody.innerHTML = renderCoffees(coffees);
 
 submitButton.addEventListener('click', updateCoffees);
+
+
+
+
